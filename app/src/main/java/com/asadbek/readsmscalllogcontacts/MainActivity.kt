@@ -1,29 +1,23 @@
 package com.asadbek.readsmscalllogcontacts
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.database.Cursor
-import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.provider.CallLog
-import android.provider.ContactsContract
-import android.provider.Telephony
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.asadbek.readsmscalllogcontacts.databinding.ActivityMainBinding
-import com.asadbek.readsmscalllogcontacts.models.Messages
-import com.asadbek.readsmscalllogcontacts.models.MyContact
-import com.asadbek.readsmscalllogcontacts.models.MyLogs
-import java.text.SimpleDateFormat
-import java.util.Locale
+
+/**
+ * Owner: Telegram: @Dominic_Azimov
+ * Date: 17.08.2024
+ * Warning: This app is just learning
+ * Yaxshi niyatda foydalaning va qiladigan ishlaringizga men javob bermayman
+ * Bu shunchaki ta`lim uchun
+ */
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

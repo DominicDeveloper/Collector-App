@@ -16,6 +16,7 @@ import com.asadbek.readsmscalllogcontacts.models.MyLogs
 import java.text.SimpleDateFormat
 import java.util.Locale
 
+
 class CallLogActivity : AppCompatActivity() {
     lateinit var binding: ActivityCallLogBinding
     lateinit var listLogs:ArrayList<MyLogs>
